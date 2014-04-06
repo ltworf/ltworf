@@ -43,6 +43,7 @@
 \title{Curriculum Vitae}
 \address{Via Martiri d'Ungheria, 60}{Nicolosi, Italy 95030}
 \mobile{+39 3299588380}
+\mobile{+46 (0)739124448}
 % \phone{(000) 111 1112}
 % \fax{(000) 111 1113}
 \email{tiposchi@tiscali.it}
@@ -63,8 +64,8 @@
 
 \section{Education}
 
-\cventry{2007--2011}{B.S. Computer science}{Universit\`{a} degli studi di Catania}{}{GPA 110/110}{with honors}  % Arguments not required can be left empty
 \cventry{2011--2013}{Msc Computer Systems and Networks}{Chalmers tekniska h\"{o}gskola}{G\"{o}teborg}{\textit{GPA 4.2/5}}{}
+\cventry{2007--2011}{B.S. Computer science}{Universit\`{a} degli studi di Catania}{}{GPA 110/110}{with honors}  % Arguments not required can be left empty
 
 \section{Publications}
 \cvitem{Title}{Towards Lightweight Logging and Replay of Embedded, Distributed Systems}
@@ -100,7 +101,21 @@
     \newline
     Familiar with the concepts of functional programming}
 \cvitem{Github}{\url{https://github.com/ltworf/}}
-\subsection{Notable projects}
+\section{Notable projects}
+\cvitem{Relational}{
+    Relational, a relational algebra parser/compiler/optimizer, used as educational tool in a few universities. Implemented in Python
+    \newline
+    Internally can parse and compile queries to Python, and perform some optimizations on the parse tree.
+    \newline
+    It provides a GUI for ease of use.
+    \newline
+    \url{https://github.com/ltworf/relational}
+    }
+\cvitem{lapdog}{
+    C++ daemon that uses ICMP+ARP to generate events upon appearing/disappearing of network devices.
+    \newline
+    \url{https://github.com/ltworf/lapdog}
+    }
 \cvitem{weborf}{
     A HTTP/DAV server, implemented in C.
     \newline
@@ -111,34 +126,6 @@
     \newline
     \url{https://github.com/ltworf/canary}
     }
-\cvitem{Relational}{
-    Relational, a relational algebra parser/compiler/optimizer, used as educational tool in a few universities. Implemented in Python
-    \newline
-    Internally can parse and compile queries to Python, and perform some optimizations on the parse tree.
-    \newline
-    It provides a GUI for ease of use.
-    \newline
-    \url{https://github.com/ltworf/relational}
-    }
-\cvitem{worfcc}{
-    A compiler, for a university course, that targets LLVM and JVM.
-    \newline
-    Implemented in Jython and Java.
-    \newline
-    \url{https://github.com/ltworf/worfcc}
-    }
-\cvitem{chinese-checkers}{
-    In a project course at university, for artificial intelligence, I was part of a team of 4 people implementing Chinese Checkers.
-    \newline
-    The project includes a GUI client, a textual client, a server, and some bots that implement different algorithms to play the game.
-    \newline
-    \url{https://github.com/ltworf/tin171}
-    }
-\cvitem{Galileo}{
-    The entire web interface of the server \url{http://galileo.dmi.unict.it}, implemented in PHP, that allows users to register, require new services, register new projects, manage permissions of other users partecipating in the projects.
-    \newline
-    An administrative page allows administrators to post news, delete projects and users, and inspect scheduled operations to block them or perform them immediately.
-    }
 
 \section{Experience}
 
@@ -147,7 +134,7 @@
     {Duego}
     {G\"{o}teborg}
     {}
-    {}
+    {Write backend API code that interfaces with clients via HTTP, various infrastructure tasks.}
 
 \cventry{2007-2012}
     {Student's server system administrator}
@@ -177,13 +164,9 @@
 \cvitem{}{I am an easy going person, passionate about software and about making things right.}
 
 \cvitem{Debian}{
-    At the present time I am a Debian Maintainer (DM), and I've been involved in some of the more general decisions affecting the entire distribution.
+    At the present time I am a Debian Maintainer (DM).
     \newline
     I maintain mostly packages in C and Python; the most used of them is xinetd.}
-
-\cvitem{Chalmers}{
-    In August 2012 I was part of the reception of new students in Chalmers, so I was assigned a group of new students and had to tell them about life in Sweden, and involve them in social activities.}
-
 
 \section{Languages}
 

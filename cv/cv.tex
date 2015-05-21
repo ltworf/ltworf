@@ -41,7 +41,8 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
-\address{Via Martiri d'Ungheria, 60}{Nicolosi, Italy 95030}
+% \address{Via Martiri d'Ungheria, 60}{Nicolosi, Italy 95030}
+\address{Mejerigatan 2 B lgh 1707}{412 76 G\"{o}teborg,}
 \mobile{+39 3299588380}
 \phone{+46 (0)738710132}
 % \fax{(000) 111 1113}
@@ -65,13 +66,15 @@
 \section{Education}
 
 \cventry{2011--2013}{Msc Computer Systems and Networks}{Chalmers tekniska h\"{o}gskola}{G\"{o}teborg, Sweden}{\textit{GPA 4.2/5}}{}
-\cventry{2007--2011}{B.S. Computer science}{Universit\`{a} degli studi di Catania}{Catania, Italy}{\textit{GPA 110/110}}{with honors}  % Arguments not required can be left empty
+\cventry{2007--2011}{B.S. Computer science}{Universit\`{a} degli studi di Catania}{Catania, Italy}{\textit{GPA 110/110} with honors}{}  % Arguments not required can be left empty
 
 \section{Publications}
 \cvitem{Title}{Towards Lightweight Logging and Replay of Embedded, Distributed Systems}
 \cvitem{Authors}{Salvatore Tomaselli, Olaf Landsiedel}
 \cvitem{Description}{In this paper we introduce MILD; providing Minimal Intrusive Logging and Deterministic replay.}
-\cvitem{In proceedings}{\href{http://hal.archives-ouvertes.fr/view_by_stamp.php?label=SAFECOMP2013-ASCOMS&action_todo=home&langue=en}{ASCoMS 2013}}
+\cvitem{In proceedings}{ASCoMS 2013}
+
+\noindent\hfil\rule{0.7\textwidth}{.4pt}\hfil % Separator as horizontal line
 
 \cvitem{Title}{LibReplay: Deterministic Replay for Bug Hunting in Sensor Networks}
 \cvitem{Authors}{Olaf Landsiedel, Salvatore Tomaselli, Elad Schiller}
@@ -91,11 +94,9 @@
 \section{Skills}
 
 \cvitem{Languages}{ In order of experience:
-    Python, C, C++, nesC, Java, PHP, Javascript
+    Python, C, C++, nesC, Java, Javascript, Haskell, PHP
     }
-\cvitem{Databases}{PostgreSQL, administration experience as well
-    \newline
-    MySQL, MongoDB, Redis, Elasticsearch
+\cvitem{Databases}{PostgreSQL, MySQL, MongoDB, Redis, Elasticsearch
     }
 
 \cvitem{Frameworks}{Django, Qt5, Flask}
@@ -103,19 +104,17 @@
 \cvitem{Technical}{
     Experience in making C code work on various POSIX platforms; using pthreads, atomic operations, networking.
     \newline
-    Familiar with the concepts of functional programming
-    \newline
     Programming on embedded systems, asynchronous or event-based.
     }
 \section{Notable projects}
 \cvitem{Relational}{
-    Relational, a relational algebra parser/compiler/optimizer, used as educational tool in a few universities. Implemented in Python
+    Relational, a relational algebra parser/compiler/optimizer, used in academia and as educational tool. Implemented in Python
     \newline
-    Internally can parse and compile queries to Python, and perform some optimizations on the parse tree.
+    Can compile relational algebra to Python, and perform some optimizations on the parse tree.
     \newline
     It provides a GUI for ease of use.
     \newline
-    \url{http://ltworf.github.io/ltworf/}
+    \url{http://ltworf.github.io/relational/}
     }
 \cvitem{lapdog}{
     C++ daemon that uses ICMP+ARP to generate events upon appearing/disappearing of network devices.
@@ -143,7 +142,7 @@
     {
         The company, US based, sells software and hardware solutions to content providers, to provide live programs or download on demand.
         \newline
-        The C++ team provides a scalable version of the backend API.
+        The C++ team provides a scalable and geolocated version of the backend API.
         \newline
         My role includes the integration of Elasticsearch within the API, to provide the devices with full text search and filtering.
     }
@@ -168,7 +167,7 @@
     {Universit\`{a} degli studi di Catania}
     {Catania, Italy}
     {}
-    {Maintain the Student server, install/configure services and develop web interfaces in PHP to use them.
+    {Maintain the Student server, install/configure services and implement web interfaces in PHP to use them.
     \newline
     Manage PostgreSQL database, mail service (Postfix+Dovecot) and webserver (Apache 2).
     \newline
@@ -184,9 +183,10 @@
     }
 
 
-\section{Social skills}
-\cvitem{}{I am an easy going person, passionate about software and about making things right.}
-
+\section{Contributed to}
+\cvitem{Subsurface}{The only divelog available on Linux systems.
+    \newline
+    I wrote a functionality to export the logs on a website I made and some other contributions and translations to Italian.}
 \cvitem{Debian}{
     At the present time I am a Debian Maintainer (DM).
     \newline
@@ -205,7 +205,7 @@
 \cvlistitem{Electric guitar}
 
 \section{Other}
-\cvitem{}{I am physically disabled, and I am mentioning it because some countries have specific legislation regarding it.}
+\cvitem{}{I am physically disabled, and I am mentioning it because some countries have specific legislation.}
 
 
 %----------------------------------------------------------------------------------------
